@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -6,7 +6,8 @@
     font-size: 20px;
 
 }
-.red{
+
+.red {
     position: absolute;
     left: 98%;
     top: 20px;
@@ -15,18 +16,19 @@
     align-items: center;
     flex-direction: column;
 }
-.red a{
+
+.red a {
     text-decoration: none;
 }
 
-header{
+header {
     background-color: #5e412f;
     width: 100%;
     text-align: center;
     color: #f8d299;
 }
 
-.sociales{
+.sociales {
     width: 20px;
     height: 20px;
     color: #f8d299;
@@ -36,28 +38,28 @@ header{
     float: right;
 }
 
-body{
+body {
     background-color: #fcebb6;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-        
-    
 
-    .nombre{
+
+
+    .nombre {
         font-size: 35px;
         padding: 5px;
         margin-top: 5px;
     }
 
-    .cont-img{
+    .cont-img {
         display: flex;
         align-items: center;
         justify-content: center;
         gap: 40px;
 
-        img{
+        img {
             width: 300px;
             height: 200px;
         }
@@ -66,34 +68,35 @@ body{
 
 
 
-  .texto{
-    text-align: center;  
-  }
-    
- 
+    .texto {
+        text-align: center;
+    }
 
-    nav{
+
+
+    nav {
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
 
-        
-        a{
+
+        a {
             text-decoration: none;
             color: #5e412f;
             transition: all .3s;
-            &:hover{
+
+            &:hover {
                 border-bottom: 1px solid #5e412f;
                 transform: scale(1.1);
             }
         }
-        
-    }
-.titulo{
-    border: 2px solid; 
-    border-radius: 20px;
-    padding: 7px;
-}
-}
 
+    }
+
+    .titulo {
+        border: 2px solid;
+        border-radius: 20px;
+        padding: 7px;
+    }
+}

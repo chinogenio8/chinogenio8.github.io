@@ -44,41 +44,51 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 body .nombre {
   font-size: 35px;
   padding: 5px;
   margin-top: 5px;
 }
+
 body .cont-img {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 40px;
 }
+
 body .cont-img img {
   width: 300px;
   height: 200px;
 }
+
 body .texto {
   text-align: center;
 }
+
 body nav {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
+
 body nav a {
   text-decoration: none;
   color: #5e412f;
   transition: all 0.3s;
 }
+
 body nav a:hover {
   border-bottom: 1px solid #5e412f;
   transform: scale(1.1);
 }
+
 body .titulo {
   border: 2px solid;
   border-radius: 20px;
   padding: 7px;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
