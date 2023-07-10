@@ -45,7 +45,10 @@ body {
     align-items: center;
     flex-direction: column;
 
-
+    .imagenes{
+        height: 300px;
+        width: 500px;
+    }
 
     .nombre {
         font-size: 50px;
@@ -100,5 +103,6 @@ body {
         border-radius: 20px;
         padding: 7px;
         font-size: 25px;
+        color: #5e412f;
     }
 }

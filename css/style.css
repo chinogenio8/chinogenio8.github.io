@@ -44,6 +44,10 @@ body {
   align-items: center;
   flex-direction: column;
 }
+body .imagenes {
+  height: 300px;
+  width: 500px;
+}
 body .nombre {
   font-size: 50px;
   padding: 5px;
@@ -82,4 +86,5 @@ body .titulo {
   border-radius: 20px;
   padding: 7px;
   font-size: 25px;
+  color: #5e412f;
 }/*# sourceMappingURL=style.css.map */
